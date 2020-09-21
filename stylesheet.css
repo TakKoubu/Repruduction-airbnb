@@ -167,7 +167,6 @@ a {
   margin-right: 54px;
   border-bottom: 1px solid #CCCCCC;
   padding-bottom: 80px;
-  margin-bottom: 80px;
 }
 .inquiry-wrapper h1 {
   font-size: 43px;
@@ -281,9 +280,179 @@ a {
   bottom: 0;
   margin: auto;
 }
-
 .stress {
   border-bottom: 1px solid #333333;
   color: #111111;
   font-weight: 600;
+}
+
+
+
+.sitemap {
+  background-color: #EEEEEE;
+  color: #888888;
+}
+.evaluation {
+  text-align: center;
+  padding: 26px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.question {
+  padding-right: 35px;
+}
+.good-or-bad {
+  display: inline-block;
+}
+.fa-thumbs-up {
+  opacity: 0.4;
+  font-size: 20px;
+}
+.fa-thumbs-down {
+  opacity: 0.4;
+  font-size: 20px;
+}
+.estimate {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+
+footer {
+  background-color: #EEEEEE;
+  padding: 40px 80px 0 80px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #CCCCCC;
+  /*margin-bottom: 30px;*/
+}
+ul {
+  list-style: none;
+}
+li {
+  
+}
+li:hover {
+  text-decoration:underline;
+  text-decoration-color:#000000;
+  opacity: 0.5;
+}
+.company {
+  display: table-cell;
+  width: 25%;
+  line-height: 35px;
+}
+.company li {
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 0.6;
+}
+.community {
+  display: table-cell;
+  width: 25%;
+  line-height: 35px;
+}
+.community li {
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 0.6;
+}
+.host {
+  display: table-cell;
+  width: 25%;
+  /*line-height: 35px;*/
+}
+.host li {
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 0.6;
+  padding-top: 12px;
+}
+.support {
+  display: table-cell;
+  width: 23%;
+  line-height: 35px;
+}
+.support li {
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 0.6;
+}
+
+
+
+.footerend {
+  background-color: #EEEEEE;
+  padding: 25px 0;
+  margin-top: 40px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 0.8;
+  border-top: 1px solid #CCCCCC;
+}
+
+.government-permission:hover {
+  text-decoration:underline;
+  text-decoration-color:#000000;
+  opacity: 0.5;
+}
+.privacy:hover {
+  text-decoration:underline;
+  text-decoration-color:#000000;
+  opacity: 0.5;
+}
+.terms:hover {
+  text-decoration:underline;
+  text-decoration-color:#000000;
+  opacity: 0.5;
+}
+.map:hover {
+  text-decoration:underline;
+  text-decoration-color:#000000;
+  opacity: 0.5;
+}
+.company-info:hover {
+  text-decoration:underline;
+  text-decoration-color:#000000;
+  opacity: 0.5;
+}
+.footer-space {
+  letter-spacing: 2px;
+}
+.footer-end-left {
+  display:table-cell;
+  width: 72%;
+}
+.footer-end-right {
+  display:table-cell;
+  width: 28%;
+}
+.footer-icon {
+  display: inline-block;
+  font-size: 15px;
+}
+.fa-globe {
+  padding-right: 5px;
+}
+.fa-yen-sign {
+  font-weight: 200;
+}
+.japanese {
+  font-weight: 400;
+  padding-right: 15px;
+  text-decoration:underline;
+  text-decoration-color:#000000;
+}
+.fa-facebook-f {
+  padding-left: 30px;
+  padding-right: 20px;
+  font-size: 18px;
+}
+.fa-twitter {
+  padding-right: 20px;
+  font-size: 18px;
+}
+.fa-instagram{
+  font-size: 18px;
+}
+.footer-end-right:hover {
+  opacity: 0.4;
 }
